@@ -1,0 +1,9 @@
+# App
+
+/dist/
+server.log
+
+# Node Package Manager
+
+/node_modules/
+npm-debug.log

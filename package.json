@@ -1,0 +1,31 @@
+{
+    "name": "Moody",
+    "version": "0.0.1",
+    "description": "moody - project using giphy and soundcloud APIs.",
+    "author": "",
+    "license": "",
+    "private": true,
+    "scripts": {
+      "start": "node --harmony server.js"
+    },
+    "devDependencies": {
+        "express": "^4.12.4",
+        "gulp": "^3.9.0",
+        "gulp-concat-css": "^2.2.0",
+        "gulp-minify-css": "^1.1.1",
+        "gulp-uglify": "^1.1.0",
+        "gulp-util": "^3.0.4",
+        "gulp-less": "^3.0.3",
+        "vinyl-buffer": "^1.0.0",
+        "vinyl-source-stream": "^1.0.0",
+        "browserify": "^10.2.4",
+        "babelify": "^6.1.2",
+        "jquery": "^2.1.4",
+        "bootstrap": "^3.3.5",
+        "react": "^0.13.3",
+        "moment": "^2.10.3",
+        "classnames": "^2.1.2",
+        "object-assign": "^3.0.0",
+        "soundcloud": "^3.0.1"
+    }
+}
