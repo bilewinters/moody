@@ -44,7 +44,8 @@ You can now edit any files in your ``src/`` directory and the appropriate re-com
 - Add basic music controls (mute, volume and image that comes with track, static in bottom right corner of page?)
 - Make music search better.
 - Make music loop (select a new track after the current one ends?)
-- gif service should use promises (jQuery defer) to bring it in line with the music service.
+- Gif service should use promises (jQuery defer) to bring it in line with the music service.
+- Provide a link service, so people can share combinations of track / gif that they like.
 - Ensure correct terms of use of giphy and soundcloud APIs (do we need to mention them on the page somewhere?)
 
 
