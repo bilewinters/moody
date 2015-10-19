@@ -6,6 +6,7 @@
     "license": "",
     "private": true,
     "scripts": {
+	  "postinstall": "gulp build",
       "start": "node --harmony server.js"
     },
     "devDependencies": {
