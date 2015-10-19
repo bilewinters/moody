@@ -6,6 +6,7 @@
     "license": "",
     "private": true,
     "scripts": {
+	  "preinstall": "npm install gulp",
 	  "postinstall": "gulp build",
       "start": "node --harmony server.js"
     },
