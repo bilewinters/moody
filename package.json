@@ -13,10 +13,7 @@
 	    "postinstall": "gulp build",
         "start": "node --harmony server.js"
     },
-	"dependencies" : {
-        "gulp": "^3.9.0"
-	},
-    "devDependencies": {
+    "dependencies": {
         "express": "^4.12.4",
         "gulp": "^3.9.0",
         "gulp-concat-css": "^2.2.0",
