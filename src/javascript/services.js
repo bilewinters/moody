@@ -14,7 +14,7 @@ export var gifService = {
 
     getGifForMood: function(mood, onSuccess, onError) {
         $.ajax({
-            url: 'http' + (isSecure() ? 's' : '') + "://api.giphy.com/v1/gifs/translate?s=' + mood + '&api_key=' + giphyApiKey,
+            url: 'http' + (isSecure() ? 's' : '') + '://api.giphy.com/v1/gifs/translate?s=' + mood + '&api_key=' + giphyApiKey,
             method: 'GET',
             success: onSuccess,
             error: onError
