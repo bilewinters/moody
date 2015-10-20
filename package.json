@@ -3,16 +3,19 @@
     "version": "0.0.1",
     "description": "moody - project using giphy and soundcloud APIs.",
 	"engines": {
-	  "node": "4.2.1"
+	    "node": "4.2.1"
 	},
     "author": "",
     "license": "",
     "private": true,
     "scripts": {
-	  "preinstall": "npm install gulp -g",
-	  "postinstall": "gulp build",
-      "start": "node --harmony server.js"
+	    "preinstall": "npm install gulp -g",
+	    "postinstall": "gulp build",
+        "start": "node --harmony server.js"
     },
+	"dependencies" : {
+        "gulp": "^3.9.0"
+	},
     "devDependencies": {
         "express": "^4.12.4",
         "gulp": "^3.9.0",
