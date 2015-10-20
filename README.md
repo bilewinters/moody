@@ -17,7 +17,7 @@ Based on the selected mood, it retrieves an mp4 from giphy (http://api.giphy.com
 **Installation Instructions**:
 - Install node (https://nodejs.org)
 - Run ``npm install``
-- Edit the ``src/javascripts/app.jsx`` replacing ``MY_CLIENT_ID`` with your soundcloud application ID (you can generate one at http://soundcloud.com/you/apps)
+- Edit the ``src/javascripts/app.jsx`` replacing ``client_id`` with your soundcloud application ID (you can generate one at http://soundcloud.com/you/apps)
 - Edit the ``src/javascripts/services.js`` replacing the ``giphyApiKey`` with your own (the default one is their public beta, you can get your own at http://api.giphy.com/submit)
 - Run ``gulp build``
 
@@ -42,7 +42,8 @@ You can now edit any files in your ``src/`` directory and the appropriate re-com
 - There is an issue with the track not __always__ changing when the image does.
 - Should be made to use Redux (https://github.com/rackt/redux) for state.
 - Add basic music controls (mute, volume and image that comes with track, static in bottom right corner of page?)
-- Make music search better.
+- Make music search better (at the moment we just search on mood, we can probably use the SC api better).
+- Display an error to the user is we his the Rate Limit on sound cloud (https://developers.soundcloud.com/docs/api/rate-limits#play-requests)
 - Make music loop (select a new track after the current one ends?)
 - Gif service should use promises (jQuery defer) to bring it in line with the music service.
 - Provide a link service, so people can share combinations of track / gif that they like.

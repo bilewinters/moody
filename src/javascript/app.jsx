@@ -9,7 +9,7 @@ import { musicService } from './services';
 SC.initialize({
     // This needs to be changed - will need unique id from sound cloud.
     // http://soundcloud.com/you/apps
-    client_id: 'CLIENT_ID'
+    client_id: 'f489293e9ec37604e255e93e8cf02dff'
 });
 
 const App = React.createClass({
