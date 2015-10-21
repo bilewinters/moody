@@ -39,6 +39,7 @@ When deploying, it is highly recommended to build with the ``--production`` flag
 You can now edit any files in your ``src/`` directory and the appropriate re-compilation steps will be taken for you. Refresh your browser page to view your changes.
 
 **Further Work**:
+- Make the site mobile friendly (video should render in the background and music should play, or at least have usable controls).
 - There is an issue with the track not __always__ changing when the image does.
 - Should be made to use Redux (https://github.com/rackt/redux) for state.
 - Add basic music controls (mute, volume and image that comes with track, static in bottom right corner of page?)
