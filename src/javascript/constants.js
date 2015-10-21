@@ -7,7 +7,7 @@ export var moods = [{
     }, {
         mood: 'excited'
     }, {
-        mood: 'angy'
+        mood: 'angry'
     }, {
         mood: 'love'
     }, {
