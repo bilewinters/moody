@@ -2,6 +2,8 @@
 
 **Small site using the Giphy and SoundCloud APIs**
 
+You can find it on [heroku](https://moody-js.herokuapp.com/).
+
 **Developed with Gulp, Browserify, BabelJS, Less, React, Bootstrap and ES6.**
 
 This is a small, single-page site that allows the user to pick from six moods (sad, happy, excited, angry, love or sleepy).
