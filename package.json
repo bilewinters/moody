@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "moody - project using giphy and soundcloud APIs.",
 	"engines": {
-	    "node": "4.2.1"
+	    "node": "4.8.4"
 	},
     "author": "",
     "license": "",
